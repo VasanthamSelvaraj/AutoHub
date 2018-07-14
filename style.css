@@ -1,0 +1,33 @@
+﻿h1 {
+    text-shadow: 1px 1px orange;
+    margin-right: 50px;
+    text-align: right;
+    color: white;
+    font-size:400%
+   }
+
+h2 {
+    text-shadow: 1px 1px orange;
+    margin-right: 50px;
+    text-align: right;
+    color: white;
+    font-size:150%
+    
+   
+}
+
+p {
+    text-align: center;
+    color: blue;
+}
+
+body{
+    background-image: url("pic.jpg");
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
+    
+}
+img{
+    width:70px;height:90px;
+    
+}
