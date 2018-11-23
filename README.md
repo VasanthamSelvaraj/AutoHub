@@ -1,1 +1,1 @@
-Triying to create a new webpage for our company
+One stop shop for automation scripts
