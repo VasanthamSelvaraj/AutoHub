@@ -12,11 +12,11 @@ color:teal;
 
 div
 {
-height:25px;
-width:105px;
-background-color:grey;
-color:white;
-font-size:19px;
+height:100%;
+width:auto;
+background-color:none;
+color:black;
+font-size:17px;
 -webkit-transition: width 0.5s, height 0.5s, font-size 0.30s;
 transition: width 0.5s, height 0.5s ,font-size 0.30s;
 }
@@ -24,11 +24,35 @@ transition: width 0.5s, height 0.5s ,font-size 0.30s;
 div:hover {
     width: 125px;
     height: 30px;
-    font-size:22px;
+    font-size:18px;
+	
 }
 
 a
 {
 text-decoration:none;
-color:white;
+color:black;
+}
+
+#details {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#details td, #details th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#details tr:nth-child(even){background-color: #f2f2f2;}
+
+#details tr:hover {background-color: #ddd;}
+
+#details th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
 }
